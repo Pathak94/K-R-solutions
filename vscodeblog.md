@@ -17,9 +17,9 @@ Debugging ble_app_hrs example from nRF5 SDK.
 1. [ARM GCC Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) provides arm-none-eabi-gdb related tools.
 2. [J-Link Software tools](https://www.segger.com/downloads/jlink) provides J-Link GDB server for J-Link based debggers.
 3. Then you will need the following extensions.
-..1. Install C/C++ Extension.
+   1. Install C/C++ Extension.
 ![c/c++ extension](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-..2. Install Intellisense.
+   2. Install Intellisense.
 ![intellisense](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 *Now you are ready to install Cortex Debug*

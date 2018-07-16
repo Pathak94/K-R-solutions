@@ -8,7 +8,7 @@ We really like Visual Studio Code editor for development. There UI is awesome an
 
 ## Setting up Cortex Debug configuration in VS Code
 
-![Cortex Debug screen](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Cortex Debug screen](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/cortex_debug.png)
 
 Debugging ble_app_hrs example from nRF5 SDK. 
 

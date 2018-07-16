@@ -17,14 +17,32 @@ Debugging ble_app_hrs example from nRF5 SDK.
 1. [ARM GCC Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) provides arm-none-eabi-gdb related tools.
 2. [J-Link Software tools](https://www.segger.com/downloads/jlink) provides J-Link GDB server for J-Link based debggers.
 3. Then you will need the following extensions.
-   1. Install C/C++ Extension.
+
+    1. Install C/C++ Extension.
 ![c/c++ extension](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-   2. Install Intellisense.
+
+    2. Install Intellisense.
 ![intellisense](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 *Now you are ready to install Cortex Debug*
 
 ![cortex_debug](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Now, you are all set to debug your project. Go to Debug menu in Visual Studio code and select start debugging. you will see a small tab menu will appear, like this.
+
+![debug_tab_menu](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+If you hover over the menu you will see it will allow you to step through, step into, step out, restart and stop the debugging. You also see three windows in the left for variable, stack and watch, this will keep track of all the variables currently present in the scope, the program stack.
+
+![variable_stack](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+As you can see it is very fast and easy to use.
+
+## Debugging hackaBLE using Bumpy
+
+
+
+
 
 
 

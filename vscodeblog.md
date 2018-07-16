@@ -44,13 +44,26 @@ I would like to briefly introduce our products hackaBLE and Bumpy before procedi
 
 [**hackaBLE**](https://electronut.in/portfolio/hackaBLE/) 
 
-hackaBLE is a tiny (~ 18 mm x 28 mm) Open Source Nordic nRF52832 based BLE development board you can embed in your BLE projects. It's designed such that you can use it three ways:
+hackaBLE is a tiny (~ 18 mm x 28 mm) Open Source Nordic nRF52832 based BLE development board you can embed in your BLE projects.
 
-    * On a breadboard
-    * On a custom PCB, hand-soldered easily using the castellated 2.54 mm pitch headers
-    * On a custom PCB, using a stencil and oven, making use of extra pads underneath the PCB
+[**Bumpy**](https://electronut.in/portfolio/bumpy/)
 
-hackaBLE uses offers more value than just using the BLE module directly - since it incorporates the necessary passive components - including the ones for the buck converter for power saving - and adds an RGB LED and a button for convenience. It's also much easier to solder than the bare modules.
+Bumpy is an inexpensive Open Source blackmagic probe compatible SWD debugger designed to be used with ARM GDB. It supports many platforms, but was primarily designed for use with our Nordic Semiconductor nRF BLE boards. 
+
+[Here](https://github.com/electronut/ElectronutLabs-hackaBLE) is the full documentation about how to use hackaBLE and program it using [Bumpy](https://github.com/electronut/ElectronutLabs-Bumpy). 
+
+**Setting up Cortex Debug congigurations for Bumpy**
+
+Since Bumpy is blackmagic probe based SWD debugger you need to set its launch settings for that. Here what you need to write in launch.json file for configuring debugging in VS Code.
+
+![Bumpy_settings](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/bmp_settings.png)
+
+
+
+
+
+
+
 
 
 

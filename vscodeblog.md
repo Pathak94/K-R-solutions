@@ -24,9 +24,17 @@ Debugging ble_app_hrs example from nRF5 SDK.
     2. Install Intellisense.
 ![intellisense](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/intellisense.png)
 
-**Now you are ready to install Cortex Debug**
+4. **Install Cortex Debug**
 
 ![cortex_debug](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/cortex_Debug.png)
+
+After this last step is to set configuration properties in launch settings. Go to debug menu and click add configurations. Now you can see launch.json file. Now edit this file and add the following. 
+
+![nrf_launch](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/nrf_launch.PNG)
+
+Sometimes you may also need to add toolchain path. So, add this property in the end and save the file.
+
+**"armtoolchainpath:"="add/your/toolchain/path"**
 
 Now, you are all set to debug your project. Go to Debug menu in Visual Studio code and select start debugging. you will see a small tab menu will appear, like this.
 
@@ -52,11 +60,13 @@ Bumpy is an inexpensive Open Source blackmagic probe compatible SWD debugger des
 
 [Here](https://github.com/electronut/ElectronutLabs-hackaBLE) is the full documentation about how to use hackaBLE and program it using [Bumpy](https://github.com/electronut/ElectronutLabs-Bumpy). 
 
-**Setting up Cortex Debug congigurations for Bumpy**
+**Setting up Cortex Debug configurations for Bumpy**
 
-Since Bumpy is blackmagic probe based SWD debugger you need to set its launch settings for that. Here what you need to write in launch.json file for configuring debugging in VS Code.
+Since Bumpy is blackmagic probe based SWD debugger you need to set its specific launch settings. Here's what you need to write in launch.json file for configuring debugging in VS Code.
 
 ![Bumpy_settings](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/bmp_settings.png)
+
+As you can see most of the configuration properties are same as before except the ones specific for blackmagic probe debugger.
 
 
 

@@ -66,7 +66,19 @@ Since Bumpy is blackmagic probe based SWD debugger you need to set its specific 
 
 ![Bumpy_settings](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/bmp_settings.png)
 
-As you can see most of the configuration properties are same as before except the ones specific for blackmagic probe debugger.
+As you can see most of the configuration properties are same as before except the ones specific for blackmagic probe debugger. And, now you use Bumpy to debug on your project.
+
+### CONCLUSION 
+
+In this article we saw how to set up and configure Cortex Debug Extention in Visual Studio Code. Setting up is easy and will take 5 minutes of your time. We also showed you how to debug using Bumpy, our blackmagic SWD programmer. Hope you find this article helpful.
+
+### ACKNOWLEDGEMENT 
+
+1. [Cortex Debug Projects by marcelball](https://marcelball.ca/projects/cortex-debug/)
+
+I want to thank my all collegues at [Electronut Labs](https://electronut.in/) for their help.
+
+
 
 
 

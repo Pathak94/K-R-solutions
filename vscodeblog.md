@@ -1,4 +1,4 @@
-#### Using Cortex Debug for Nordic's nRF5x on Visual Studio Code
+# Using Cortex Debug for Nordic's nRF5x on Visual Studio Code
 
 Here at Electronut Labs we work extensively on Bluetooth Low Energy technology. And, we have chosen Nordic semicondctor's nRF5x series boards for developing our products. We have our own range of breakout boards based on nRF5x series microcontrolers . You can visit out [website](https://electronut.in/portfolio/) or [tindie](https://www.tindie.com/stores/ElectronutLabs/) to purchase our boards. 
 

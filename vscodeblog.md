@@ -1,3 +1,15 @@
+---
+layout: post
+title: "Using Cortex Debug for Nordic's nRF5x on Visual Studio Code"
+excerpt: "Using Cortex Debug for Nordic's nRF5x on Visual Studio Code and bumpy"
+tags: [cortex debug, nRF52832, hackaBLE, bumpy, debug nrf5, visual studio code cortex debug]
+categories: [Electronics]
+comments: false
+modified: 2018-06-09
+thumbnail: images/2018/07/cortex_debug.png
+images: images/2018/07/cortex_debug.png
+---
+
 # Using Cortex Debug for Nordic's nRF5x on Visual Studio Code
 
 Here at Electronut Labs we work extensively on Bluetooth Low Energy technology. And, we have chosen Nordic semicondctor's nRF5x series boards for developing our products. We have our own range of breakout boards based on nRF5x series microcontrolers . You can visit out [website](https://electronut.in/portfolio/) or [tindie](https://www.tindie.com/stores/ElectronutLabs/) to purchase our boards. 
@@ -19,9 +31,11 @@ Debugging ble_app_hrs example from nRF5 SDK.
 3. Then you will need the following extensions.
 
     1. Install C/C++ Extension.
+    
 ![c/c++ extension](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/cextension.png)
 
     2. Install Intellisense.
+    
 ![intellisense](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/intellisense.png)
 
 4. **Install Cortex Debug**
@@ -66,7 +80,7 @@ Since Bumpy is blackmagic probe based SWD debugger you need to set its specific 
 
 ![Bumpy_settings](https://github.com/electronut/electronut.github.io/blob/master/images/2018/07/bmp_settings.png)
 
-As you can see most of the configuration properties are same as before except the ones specific for blackmagic probe debugger. And, now you use Bumpy to debug on your project.
+As you can see most of the configuration properties are same as before, except the ones specific for blackmagic probe debugger. And, now you use Bumpy to debug on your project.
 
 ### CONCLUSION 
 
